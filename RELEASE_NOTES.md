@@ -1,13 +1,18 @@
-# Current public distribution
+# Distribution and documentation changes
 
-Scientific result set: corrected Yanayacu reviewer edition, 8 October 2026.
+Scientific results: corrected Yanayacu reviewer edition, 8 October 2026. Computational distribution: 26 November 2026.
 
-Packaging date: 26 November 2026.
+## Repository documentation revision
 
-This distribution makes the current source data and code usable independently of previous delivery folders. It includes the original recorded metadata, the current prepared analytical values, retained complete ASV and genus-lineage source matrices, current statistical tables, current figure sets and the retained native workflow evidence. Original FASTQ files are accessed through the deposited sequence record and supplied mapping, rather than being duplicated inside the code archive.
+This revision shortens six documentation files and corrects the usage example in the `figure_code/build_alpha.py` module docstring to use the public figure-rendering entry point. Executable statements, source data, numerical results and figures are unchanged. No scientific analyses were rerun for this editorial revision.
 
-The current-only statistical replay regenerates all ten current association tables identically. Plotting-code portability changes retain the current source numbers. The published figure assets remain byte-identical to the current scientific snapshot. Public table index links now point to the current package locations; this is an index-only edit and does not change numerical workbook values.
+The ZIP retains its original documentation and script bytes; the GitHub branch contains the later editorial revision. The archive checksum remains in `DOWNLOAD_MANIFEST.json`, and `SHA256_MANIFEST.tsv` describes that archived distribution.
 
-Original script identifiers, execution dates, source hashes and input-preparation evidence are scientific provenance. Their inclusion does not mean that alternative earlier result versions are shipped. Full previous deliveries, backup ZIPs and confidential reviewer materials are excluded.
+## Computational distribution
 
-This release does not claim a newly completed execution of all stages from FASTQ. Consult each reproduction guide for which stages were replayed, which native objects and execution records were preserved, and which operations require the original environments and source reads.
+- Includes recorded and prepared metadata, retained ASV and genus-lineage matrices, statistical tables, publication figures and native execution records. FASTQ reads are linked through the deposited sequence record and sample manifest.
+- Reproduces ten association tables byte for byte. Figure-code portability changes preserve source values, and the distributed publication figures retain their original bytes.
+- Relocates table-index links to the standalone package without changing workbook values.
+- Retains script identifiers, execution dates, input preparation records and source hashes. Earlier complete deliveries, backup ZIPs and confidential reviewer material are excluded.
+
+A complete rerun from FASTQ was not performed. The reproduction guides distinguish the executed numerical checks from retained native objects and stages requiring the original environments and reads.

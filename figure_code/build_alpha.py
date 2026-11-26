@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Rebuild publication alpha figures from frozen sample data and test results.
 
-Usage: python build_alpha_figures.py --package PATH_TO_REVISION_PACKAGE
+Public entry point: python figure_code/reproduce_figures.py --output NEW_OUTPUT_DIRECTORY
 Requires Python >= 3.10, NumPy and Matplotlib. No statistical fitting is done here.
 """
 from __future__ import annotations

@@ -1,6 +1,6 @@
 # Raw data, master metadata and sequence provenance
 
-This release packages the inputs and active processing records underlying the current nine-sample analysis. It does not contain earlier delivery editions or their result archives. Earlier execution dates in source records identify how the retained results were produced; they are not alternative current analyses.
+This release contains the inputs and execution records for the nine-sample analysis. Source-file dates document the processing history; earlier result archives are excluded.
 
 ## What is included
 
@@ -15,7 +15,7 @@ This release packages the inputs and active processing records underlying the cu
 | Native statistical analysis | `sequence_workflow/native_analysis/` | Final ANCOM-BC2 R objects, frozen input counts, R code, environment locks, beta inputs and native NMDS source/objects |
 | Quality reports | `sequence_workflow/qc_reports/` | MultiQC after-trimming reports for both markers; download and transformation receipt under `validation/raw/` |
 
-The source metadata file is a preparation record, not an original laboratory certificate. For A1, the original sand/silt/clay values were 68.82/17.18/16.00, summing to 102. The prepared values close the composition to 100; the original values and preparation record remain available. This is not evidence of a laboratory correction. Total nitrogen, organic matter and total carbon remain in the metadata. Laboratory units, analytical methods and the relationship between reported carbon and organic matter must not be invented.
+The source metadata file is a preparation record, not an original laboratory certificate. For A1, the original sand/silt/clay values were 68.82/17.18/16.00, summing to 102. The prepared values close the composition to 100; the original values and preparation record remain available. This is not evidence of a laboratory correction. Total nitrogen, organic matter and total carbon remain in the metadata. Laboratory units, analytical methods and the relationship between reported carbon and organic matter have not been verified from primary records.
 
 ## Public raw data and identity checks
 
@@ -23,7 +23,7 @@ The official [ENA file-report service](https://www.ebi.ac.uk/ena/portal/api/file
 
 The 36 ENA FASTQ files for the analysis have a total declared compressed size of **1,686,854,967 bytes**. The canonical Drive folder contains 36 vendor-named FASTQ files with a total declared size of **1,601,546,685 bytes**. Deposited read counts agree with all 18 current raw read-pair counts: **4,722,910 pairs for 16S** and **6,529,501 pairs for ITS**. These agreements verify the recorded library/count mapping, not nucleotide-level or compressed-byte identity. No FASTQ files were downloaded or rehashed during this packaging operation. Canonical vendor SHA-256 values come from the archived source manifest; ENA MD5 values describe the public archive files. They are different checksum domains.
 
-Eighteen of the 20 public experiment titles have a sample prefix inconsistent with their library name. The library names and canonical vendor/sample crosswalk provide the mapping retained here; the title discrepancy is explicitly recorded in `public_accession_map.tsv`. It requires depositor reconciliation and must not be silently treated as resolved. Exact public metadata and the HTTP retrieval receipt are retained in `validation/raw/`.
+Eighteen of the 20 public experiment titles have a sample prefix inconsistent with their library name. The library names and canonical vendor/sample crosswalk provide the mapping retained here; the title discrepancy is explicitly recorded in `public_accession_map.tsv`. The title discrepancy remains unresolved and requires reconciliation by the depositor. Exact public metadata and the HTTP retrieval receipt are retained in `validation/raw/`.
 
 The author's canonical source folder is [RAW data on Drive](https://drive.google.com/drive/folders/10mN-aWoFK-vfuwB1vJRj7dN0vxjhjoMV). Drive access conditions may differ from the public ENA record. The raw bytes are not duplicated inside this code release.
 
@@ -43,7 +43,7 @@ python sequence_workflow/download_public_fastq.py --download --output /path/to/n
 
 ## Sequence processing and reproducibility boundary
 
-The active sequence algorithms are included as `.py.txt` records. Host-specific project and environment prefixes were replaced by named placeholders; original and packaged SHA-256 values are listed in `validation/raw/SOURCE_FILE_INVENTORY.json`. These files are reference source records, not a validated turnkey launcher. They include the real processing decisions and command arguments rather than a newly invented workflow.
+The active sequence algorithms are included as `.py.txt` records. Host-specific project and environment prefixes were replaced by named placeholders; original and packaged SHA-256 values are listed in `validation/raw/SOURCE_FILE_INVENTORY.json`. These files are reference source records, not a validated turnkey launcher. They retain the processing decisions and command arguments recorded for the original runs.
 
 The retained 16S settings include Cutadapt 5.1, operational primer candidates `ACTCCTACGGGAGGCAGCAG` and `GGACTACHVGGGTWTCTAAT`, 270/210 forward/reverse truncation, expected-error limits 2/2, 20-base minimum overlap, zero merge mismatches and consensus chimera removal. The ITS branch uses operational ITS3/ITS4-compatible cores `GCATCGATGAAGAACGCAGC` and `TCCTCCGCTTATTGATATGC`, preserves variable length with fixed truncation disabled, and records its own filtering, overlap and chimera settings. These operational oligonucleotides are not claimed to be vendor-certified primer sequences.
 
@@ -87,6 +87,6 @@ The included MultiQC HTML reports were obtained from the authorized Drive source
 
 ## What the current checks establish
 
-The raw library mapping, current read counts, metadata input hashes, retained ASV matrix totals, current ANCOM numerical outputs and packaged source locks are verified. They do not establish missing laboratory units/methods, provider primer certification, nucleotide identity of two archive representations, or causal effects of degradation. There are nine sampling units, low degradation is absent from SI, and locality/vegetation structure limits inference. These are properties of the evidence, not problems that can be removed by packaging.
+The raw library mapping, current read counts, metadata input hashes, retained ASV matrix totals, current ANCOM numerical outputs and packaged source locks are verified. They do not establish missing laboratory units/methods, provider primer certification, nucleotide identity of two archive representations, or causal effects of degradation. There are nine sampling units, low degradation is absent from SI, and locality/vegetation structure limits inference.
 
 See `validation/raw/` for machine-readable checks, `ANALYSIS_REPRODUCTION_EN.md` for numerical refits, `FIGURE_REPRODUCTION_EN.md` for current figure reproduction, and `sequence_workflow/THIRD_PARTY_NOTICES.md` for native software attribution.

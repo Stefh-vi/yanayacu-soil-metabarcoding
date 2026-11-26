@@ -1,6 +1,6 @@
 # Reproducing the current scientific figures
 
-This component contains only the publication figures of the current Yanayacu V3 edition and the specific inputs required by their rendering code. It does not contain prior complete deliverables or old analysis archives. The distributed `figures/MAIN` and `figures/SUPPLEMENTARY` files preserve the current PDF, SVG and PNG bytes exactly.
+This component contains the publication figures and rendering inputs for the corrected Yanayacu edition. Files in `figures/MAIN` and `figures/SUPPLEMENTARY` retain the source PDF, SVG and PNG bytes.
 
 ## Run in a fresh output directory
 
@@ -21,7 +21,7 @@ The output directory must not already exist. The command does not overwrite the 
 | Native vector artwork plus source-based text update | S09, S11 | Original quantitative geometry is preserved. S09 receives the current test probabilities; S11 receives the clarified technical-sensitivity title. |
 | Preserve the current publication artifacts byte-for-byte | F01, F04, S01, S02, S08, S10, S12, S13, S14, S15, S18, S19, S20, S22, S24, S25 | These sixteen figure sets remain available as PDF/SVG/PNG and are copied by the figure replay. The replay does not claim to rebuild their original statistical or sequence-processing calculations. |
 
-`data/figure_inputs/native/` contains only two necessary vector geometry inputs used by the current builders, not previous editions of the delivery. Numeric input tables and coordinates are in `data/figure_inputs/`. The hashes and original relative source locations are in `validation/figures/SOURCE_INVENTORY.tsv`.
+`data/figure_inputs/native/` contains the two vector geometry inputs used by the builders. Numeric tables and coordinates are in `data/figure_inputs/`. The hashes and original relative source locations are in `validation/figures/SOURCE_INVENTORY.tsv`.
 
 ## Source-to-figure mapping
 
@@ -34,8 +34,8 @@ The output directory must not already exist. The command does not overwrite the 
 
 ## Executed verification
 
-The standalone replay was executed on 26 November 2026 with Python 3.13.12, NumPy 2.4.6, pandas 3.0.6, Matplotlib 3.10.9, Pillow 12.2.0 and PyMuPDF 1.27.2.2. These are rendering versions, not claims about the software that fitted the original scientific models. The original current-edition rendering environment is retained in `data/figure_inputs/SOURCE_RENDER_ENVIRONMENT.json`.
+The standalone replay was executed on 26 November 2026 with Python 3.13.12, NumPy 2.4.6, pandas 3.0.6, Matplotlib 3.10.9, Pillow 12.2.0 and PyMuPDF 1.27.2.2. These versions describe the rendering check; they do not identify the original model-fitting environments. The original current-edition rendering environment is retained in `data/figure_inputs/SOURCE_RENDER_ENVIRONMENT.json`.
 
-All 31 PDF numerical-token sequences and page dimensions matched the current-source figures. All 2,272 association plot objects, all 36 alpha-source rows and all 36 beta-source rows matched their current numerical sources. The 93 distributed publication artifacts are byte-identical to the current edition. Sixteen replayed figure sets are byte-identical; rebuilt plots can differ at the pixel or file-byte level because of library/font versions. These differences are measured explicitly in `validation/figures/FIGURE_REPRODUCTION_CHECK.json`; no byte-identical rendering claim is made for the rebuilt figures.
+All 31 PDF numerical-token sequences and page dimensions matched the current-source figures. All 2,272 association plot objects, all 36 alpha-source rows and all 36 beta-source rows matched their current numerical sources. The 93 distributed publication artifacts are byte-identical to the current edition. Sixteen replayed figure sets are byte-identical; rebuilt plots can differ at the pixel or file-byte level because of library/font versions. These differences are measured explicitly in `validation/figures/FIGURE_REPRODUCTION_CHECK.json`. The rebuilt figures are therefore assessed separately from the byte-identical distributed assets.
 
 The checks concern source identity, graphical quantities, numerical labels and rendering. They do not independently establish sampling independence, laboratory assay validity, statistical model adequacy or scientific significance. See the analysis reproduction guide for numerical-model scope.

@@ -1,6 +1,6 @@
 # Reproduce the current statistical analyses
 
-This package contains the numerical specification, current source data, analysis code and current reference outputs associated with the corrected Yanayacu reviewer edition. It does not require any previous delivery folder. The November packaging changes paths and removes comparison-only material; it does not change the released statistical estimates or conclusions.
+This package provides the statistical specification, input data, code and reference outputs for the corrected Yanayacu reviewer edition. The November distribution uses standalone paths and retains the released estimates and conclusions.
 
 ## Quick start
 
@@ -21,7 +21,7 @@ The replay executes `analysis/run_associations.py`, `analysis/verify_independent
 `data/analysis_inputs/` contains:
 
 - `S16_Study_metadata.tsv`: all nine analytical units and the 28 recorded numerical soil variables, locality and vegetation. Original units that could not be established remain explicitly unconfirmed.
-- `metadata_preparation_record.tsv`: the corresponding preparation record, including long/short sample ID mapping and original versus analytical particle-size values. This is provenance for the current input, not an obsolete analysis version.
+- `metadata_preparation_record.tsv`: the corresponding preparation record, including long/short sample ID mapping and original versus analytical particle-size values. The record documents preparation of the analytical input.
 - The complete retained genus-rank lineage count matrices for both markers: 1,143 prokaryotic lineages and 1,185 fungal lineages. These are processed counts; they are not raw sequencing reads and are not the full ASV tables.
 - Current genus selection and per-sample data; 18 marker/sample alpha estimates; seven current alpha/beta category records; the 28-variable environmental comparison table; retained ANCOM-BC2 and dispersion tables.
 - `DESIGN.json`: the current model and correction families, input hashes and sample order. The preserved October specification timestamp is not a claim that the study was preregistered. The November packaging timestamp and source specification hash are recorded separately.
@@ -42,7 +42,7 @@ All copied numerical input files and the ten current reference output tables ret
 
 The selected twelve genera are not renormalized as a separate composition. The CLR denominator uses all retained genus-rank lineage groups, including unresolved annotations. Both markers represent the same nine soil units; the one hundred ITS rarefaction draws are technical subsamples, not biological replication.
 
-## What was actually verified
+## Validation results
 
 The current-only replay regenerated ten TSV files byte-for-byte identical to the corrected reference tables. The independent implementation passed 97 checks, including all 364 exact association permutation counts and the four alpha plus 28 environmental category fits. The maximum independent numerical discrepancy was 4.45 × 10^-16. Thirteen further checks cover retained ANCOM-BC2/dispersion arithmetic. The metadata preparation check passed 308 comparisons.
 
@@ -50,7 +50,7 @@ The executed reports are preserved in `validation/analysis/`. In a new replay, i
 
 `analysis/EXPECTED_TABLES.json` defines current association output hashes. Hash equality checks file identity, not the validity of field sampling, assays or biological interpretation.
 
-## Interpretation retained
+## Interpretation
 
 There are nine units, with six from Jaén (J) and three from San Ignacio (SI); low degradation occurs only in J. The models assume field independence and exchangeability within locality, which cannot be established from these files. Locality adjustment does not remove all potential vegetation/degradation confounding. No primary adjustment family yields P < 0.05; this is not evidence of equivalence or absence of an effect.
 
