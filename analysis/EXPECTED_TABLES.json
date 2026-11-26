@@ -1,0 +1,52 @@
+[
+  {
+    "path": "tables/GENUS_ENVIRONMENT_ALL13_ASSOCIATIONS.tsv",
+    "sha256": "d7b9d7ed0ee7dc94df3e0f8cf464d87ba3d860c5c508311e0389bae382daf851",
+    "rows": 312
+  },
+  {
+    "path": "tables/ALPHA_ENVIRONMENT_ALL13_ASSOCIATIONS.tsv",
+    "sha256": "9dbf5d36609720ff25a2996f3b813b7bcb94293ef8b18c3b8e2f96b267991988",
+    "rows": 52
+  },
+  {
+    "path": "tables/GENUS_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "sha256": "96f3847f0efd981ca790eb32982c51f63c0d2de1e17c82215c263906a879c919",
+    "rows": 216
+  },
+  {
+    "path": "tables/ALPHA_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "sha256": "1509b7906342e9239b92393edf80bb53c1b2be0da105969ee9c692f2ad2df68d",
+    "rows": 36
+  },
+  {
+    "path": "tables/ENVIRONMENT_ALL13_CORRELATIONS_DESCRIPTIVE.tsv",
+    "sha256": "a4c69cb04100b5e2522d0363a9617ef44a2298c1e8436b4e7b3bac2dec879e9d",
+    "rows": 78
+  },
+  {
+    "path": "tables/ENVIRONMENT_ALL13_SAMPLE_VALUES.tsv",
+    "sha256": "7562fa840d1ef0d2c0e03b4b09fe02cb090149aa2be6633f9e3391c224f7a769",
+    "rows": 9
+  },
+  {
+    "path": "tables/ASSOCIATION_LEAVE_ONE_OUT.tsv",
+    "sha256": "58bb1048ad36c356fc0ec080e798023c721116e610a741707e85c81a6bf19a03",
+    "rows": 3276
+  },
+  {
+    "path": "tables/GENUS_SELECTION_CURRENT.tsv",
+    "sha256": "78c62ec956314dcd80cf4473535850bc83bc10dc9bb8259a87a79ba872596f5d",
+    "rows": 24
+  },
+  {
+    "path": "tables/LIBRARY_DENOMINATORS_CURRENT.tsv",
+    "sha256": "b72bc3c226a9b2d306a48d1bae1ac654e7b42b0934373f0a50d512c9efddcc60",
+    "rows": 18
+  },
+  {
+    "path": "tables/ASSOCIATION_FAMILY_SUMMARY.tsv",
+    "sha256": "861294e1d2010fe6c7bb2dbef09845f717bdc3ca4c59a0ed0d4ea1f3bd739750",
+    "rows": 4
+  }
+]

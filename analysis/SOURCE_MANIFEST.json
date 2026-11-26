@@ -1,0 +1,178 @@
+[
+  {
+    "path": "data/analysis_inputs/S16_Study_metadata.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/S16_Study_metadata.tsv",
+    "sha256": "c55979f1756881444448edc9d558f797e0073e35de402902d1cbde51b054f169",
+    "bytes": 2287,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/Alpha_Primary_Estimates_EN.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/Alpha_Primary_Estimates_EN.tsv",
+    "sha256": "6cd1865ed12f418ddae8b67ff693ff75b00487a92392f060b9284b4cd4659972",
+    "bytes": 1669,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/Table_2_Category_Associations_EN.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/Table_2_Category_Associations_EN.tsv",
+    "sha256": "05aed2dd49e48fdbedfd381f69568f7a875449aa4e034c54e800fdb94abc0a5a",
+    "bytes": 932,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/GENUS_SELECTION.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/GENUS_SELECTION.tsv",
+    "sha256": "78c62ec956314dcd80cf4473535850bc83bc10dc9bb8259a87a79ba872596f5d",
+    "bytes": 7369,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/GENUS_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/GENUS_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "sha256": "f0b37e9fe3e28b207633d3956ad07a3e05be486262f0e6bd7fc9b0970951dad1",
+    "bytes": 52741,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/ENVIRONMENT_CATEGORY_28.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/ENVIRONMENT_CATEGORY_28.tsv",
+    "sha256": "9cfa7f46084ed487b34986167548f31f26cf66a79c329912376b81714e404c58",
+    "bytes": 5733,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/16S_ALL_GENUS_RANK_LINEAGE_COUNTS_DERIVED.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/16S_ALL_GENUS_RANK_LINEAGE_COUNTS_DERIVED.tsv",
+    "sha256": "3d197108bbb6456745130748b1cc6bd7e7f9341c4a56603ce2f7ccc8741f3712",
+    "bytes": 200178,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/ITS_ALL_GENUS_RANK_LINEAGE_COUNTS_DERIVED.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/inputs/association_extension/ITS_ALL_GENUS_RANK_LINEAGE_COUNTS_DERIVED.tsv",
+    "sha256": "1aba203d057faa8a046650e07636f8c7865e7ead775287ea36b585abb53ea172",
+    "bytes": 198710,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/retained_statistics/S17_ANCOM_global.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/S17_ANCOM_global.tsv",
+    "sha256": "063f05799593b2e9575bf499669edc541da3397e0c770d51a362677e5c4d1373",
+    "bytes": 218451,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/retained_statistics/S18_ANCOM_contrasts.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/S18_ANCOM_contrasts.tsv",
+    "sha256": "32e007424ab43f32e6990310e95a0847537440cfc9762c012465661601f4c406",
+    "bytes": 588128,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/retained_statistics/S06_Dispersion_diagnostics.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/S06_Dispersion_diagnostics.tsv",
+    "sha256": "67a95b9aa35784e721cdf67b094d2b10322251c675cc3fb780c834ffa15a8dcf",
+    "bytes": 521,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "data/analysis_inputs/metadata_preparation_record.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/upstream/baseline/historical_pipeline/sources/remote/00_inputs_controlados/metadata/metadata-degraded-soils.analysis9.tsv",
+    "sha256": "5ad730e4385de151a432618635a715b7d23eff6ee5fbc877bc07e3e5ddbf60c9",
+    "bytes": 2309,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/GENUS_ENVIRONMENT_ALL13_ASSOCIATIONS.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/GENUS_ENVIRONMENT_ALL13_ASSOCIATIONS.tsv",
+    "sha256": "d7b9d7ed0ee7dc94df3e0f8cf464d87ba3d860c5c508311e0389bae382daf851",
+    "bytes": 107827,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/ALPHA_ENVIRONMENT_ALL13_ASSOCIATIONS.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/ALPHA_ENVIRONMENT_ALL13_ASSOCIATIONS.tsv",
+    "sha256": "9dbf5d36609720ff25a2996f3b813b7bcb94293ef8b18c3b8e2f96b267991988",
+    "bytes": 9589,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/GENUS_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/GENUS_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "sha256": "96f3847f0efd981ca790eb32982c51f63c0d2de1e17c82215c263906a879c919",
+    "bytes": 68670,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/ALPHA_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/ALPHA_ENVIRONMENT_SAMPLE_DATA.tsv",
+    "sha256": "1509b7906342e9239b92393edf80bb53c1b2be0da105969ee9c692f2ad2df68d",
+    "bytes": 6014,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/ENVIRONMENT_ALL13_CORRELATIONS_DESCRIPTIVE.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/ENVIRONMENT_ALL13_CORRELATIONS_DESCRIPTIVE.tsv",
+    "sha256": "a4c69cb04100b5e2522d0363a9617ef44a2298c1e8436b4e7b3bac2dec879e9d",
+    "bytes": 10832,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/ENVIRONMENT_ALL13_SAMPLE_VALUES.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/ENVIRONMENT_ALL13_SAMPLE_VALUES.tsv",
+    "sha256": "7562fa840d1ef0d2c0e03b4b09fe02cb090149aa2be6633f9e3391c224f7a769",
+    "bytes": 974,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/ASSOCIATION_LEAVE_ONE_OUT.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/ASSOCIATION_LEAVE_ONE_OUT.tsv",
+    "sha256": "58bb1048ad36c356fc0ec080e798023c721116e610a741707e85c81a6bf19a03",
+    "bytes": 518607,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/GENUS_SELECTION_CURRENT.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/GENUS_SELECTION_CURRENT.tsv",
+    "sha256": "78c62ec956314dcd80cf4473535850bc83bc10dc9bb8259a87a79ba872596f5d",
+    "bytes": 7369,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/LIBRARY_DENOMINATORS_CURRENT.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/LIBRARY_DENOMINATORS_CURRENT.tsv",
+    "sha256": "b72bc3c226a9b2d306a48d1bae1ac654e7b42b0934373f0a50d512c9efddcc60",
+    "bytes": 406,
+    "transformation": "none; exact source bytes"
+  },
+  {
+    "path": "analysis/reference_tables/ASSOCIATION_FAMILY_SUMMARY.tsv",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "02_TABLES/ASSOCIATION_FAMILY_SUMMARY.tsv",
+    "sha256": "861294e1d2010fe6c7bb2dbef09845f717bdc3ca4c59a0ed0d4ea1f3bd739750",
+    "bytes": 356,
+    "transformation": "none; exact source bytes"
+  }
+]

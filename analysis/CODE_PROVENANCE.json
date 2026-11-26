@@ -1,0 +1,36 @@
+[
+  {
+    "public_path": "analysis/run_associations.py",
+    "public_sha256": "5e1af835defb943f81ae50ddf5cd3f9aec8b6022024fcad19daead592de44712",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/code/run_association_extension.py",
+    "source_sha256": "457ec6a3629a4be6b6ce03000e0064bddf44a17e67c8d68041cf65a6d73e3c04",
+    "change": "Portable paths and fresh output; historical-only comparison inputs/output and refreeze CLI omitted. Core estimators and output schema unchanged."
+  },
+  {
+    "public_path": "analysis/verify_independently.py",
+    "public_sha256": "b85f644dcb9388919b16e6c879754014ecd644332df72801bad2bb6dbb7e4e5c",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/code/verify_association_extension_independently.py",
+    "source_sha256": "357fe68c5daf31a559f971baacde6eec29af6155330c0c544f774e8d0b61ea02",
+    "change": "Portable input/output paths; current-only checks, plus machine-readable independently refitted category results."
+  },
+  {
+    "public_path": "analysis/verify_retained_statistics.py",
+    "public_sha256": "96d17cefec0d3eda662703e7d0f8f5beaf9b1e124c8b681a69335fbba29b45a0",
+    "source_edition": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+    "source_member": "04_REPRODUCIBILITY/code/verify_retained_statistical_tables.py",
+    "source_sha256": "65b801eb25aa342603ac6d125c582bf9714b725c3664764c4be45ab320e65749",
+    "change": "Portable paths; current dispersion-only table replaces mixed historical category/dispersion input."
+  },
+  {
+    "public_path": "analysis/replay.py",
+    "public_sha256": "9ce116336066b8c976e8e32b5bb98d40e7ef772ac5359cb0579f2497e61f25ff",
+    "change": "New public orchestration or metadata provenance checker; does not redefine scientific estimates."
+  },
+  {
+    "public_path": "analysis/verify_metadata.py",
+    "public_sha256": "9ff1dc880c6b566f37ba522d035900183c8fac823e18e03f2331e7a12c1c367d",
+    "change": "New public orchestration or metadata provenance checker; does not redefine scientific estimates."
+  }
+]

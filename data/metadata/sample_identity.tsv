@@ -1,0 +1,10 @@
+sample_id	source_sample_id	vendor_id	degradation	locality_code	locality_name	vegetation
+B1	B1651	UA2410000651	Low degradation	J	Jaen	Forest
+B2	B2652	UA2410000652	Low degradation	J	Jaen	Forest
+B3	B3653	UA2410000653	Low degradation	J	Jaen	Forest
+M1	M1654	UA2410000654	Moderate degradation	J	Jaen	Grassland
+M2	M2655	UA2410000655	Moderate degradation	SI	San Ignacio	Pasture
+M3	M3656	UA2410000656	Moderate degradation	SI	San Ignacio	Coffee
+A1	A1657	UA2410000657	High degradation	J	Jaen	Bare soil
+A2	A2658	UA2410000658	High degradation	J	Jaen	Rice
+A3	A3659	UA2410000659	High degradation	SI	San Ignacio	Bare soil
