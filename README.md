@@ -77,4 +77,3 @@ The November packaging does not constitute a new complete analysis from FASTQ. N
 The study has nine shared soil units, not eighteen independent marker samples or one hundred biological ITS replicates. Low degradation is absent from San Ignacio. Source files do not establish sampling independence, complete chemical assay documentation or causal relationships. Original and prepared particle-size values retain their documented distinction.
 
 No earlier complete deliverables, confidential reviewer correspondence or backup ZIPs are part of this distribution. Required source inputs and scripts that predate the scientific snapshot remain traceable through their source manifests.
-
