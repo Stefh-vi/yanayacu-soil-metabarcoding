@@ -2,7 +2,7 @@
 
 This package contains the current 16S and ITS soil-metabarcoding analysis for nine soil units from Jaén and San Ignacio, Peru. The scientific snapshot corresponds to the corrected reviewer edition of 8 October 2026. This standalone distribution was assembled on 26 November 2026 without copying earlier delivery folders or backup archives.
 
-For the complete source data, native statistical objects and publication figures, download and extract `YANAYACU_CURRENT_CODE_DATA_20261126.zip` from the repository's release assets. GitHub also exposes the executable source and documentation for inspection. Run the commands below from the fully extracted distribution, not from a source-only checkout. The archive's checksum and file manifest identify the exact delivered contents.
+For the complete source data, native statistical objects and publication figures, download and extract `YANAYACU_CURRENT_CODE_DATA_20261126.zip` from the [current complete distribution](https://drive.google.com/drive/folders/1mZ3jRF7mkHfaLVXjxxBNuF8gpr4TbRUf). The folder contains the ZIP, its SHA-256 checksum and verification receipts. GitHub exposes the executable source and documentation for inspection. Run the commands below from the fully extracted distribution, not from a source-only checkout. The archive's checksum and file manifest identify the exact delivered contents. A GitHub release asset and a Zenodo DOI have not been published.
 
 Both markers describe the same nine analytical units: B1–B3 (low degradation), M1–M3 (moderate degradation), and A1–A3 (high degradation). J and SI retain their original locality meanings. The original fertile-soil unit P1 is outside the comparative cohort.
 
@@ -77,3 +77,4 @@ The November packaging does not constitute a new complete analysis from FASTQ. N
 The study has nine shared soil units, not eighteen independent marker samples or one hundred biological ITS replicates. Low degradation is absent from San Ignacio. Source files do not establish sampling independence, complete chemical assay documentation or causal relationships. Original and prepared particle-size values retain their documented distinction.
 
 No earlier complete deliverables, confidential reviewer correspondence or backup ZIPs are part of this distribution. Required source inputs and scripts that predate the scientific snapshot remain traceable through their source manifests.
+

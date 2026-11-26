@@ -1,0 +1,13 @@
+{
+  "scientific_snapshot": "YANAYACU_REVIEWER_EDITION_20261008_V3",
+  "public_packaging_date": "2026-11-26",
+  "archive": "YANAYACU_CURRENT_CODE_DATA_20261126.zip",
+  "bytes": 29368379,
+  "sha256": "efd94c4f06c566975f3352428bc95ce2de2f3c0cca43f29c6767fc8ab41887e8",
+  "payload_files": 392,
+  "archive_files": 393,
+  "old_complete_deliveries_included": false,
+  "raw_fastq_embedded": false,
+  "raw_fastq_access": "Public accession/download manifest under data/raw_manifest; processed master matrices included."
+}
+
