@@ -8,6 +8,4 @@ The comparative cohort comprises nine soil units, A1-A3, B1-B3 and M1-M3, measur
 
 Recorded soil measurements and prepared analytical values are preserved separately. Particle-size normalization is documented as a computational transformation, not a laboratory correction. Laboratory units and methods remain unverified where primary records were unavailable.
 
-Computational scripting, numerical checking, data-derived figure preparation and documentation received assistance from OpenAI ChatGPT and Codex. Execution is performed by the scientific software specified in the accompanying scripts and environment records. Responsibility for scientific interpretation and publication remains with the study authors.
-
 Validation records specify the executed file-identity checks and numerical analyses. These checks do not establish field independence or supply missing laboratory records. A complete new FASTQ-to-figure analysis was not performed.

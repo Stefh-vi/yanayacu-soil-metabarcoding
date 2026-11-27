@@ -73,4 +73,4 @@ The November checks did not rerun the complete FASTQ-to-figure workflow. Repeati
 
 The study comprises nine shared soil units. The two markers and the ITS technical subsamples do not increase the biological sample size. Low degradation occurs only in Jaén; field independence and complete chemical assay documentation remain unverified. These observational data do not establish causal effects.
 
-[PROVENANCE.md](PROVENANCE.md) records input preparation, source history and computational assistance. The distribution retains the source scripts and hashes required to trace the results, while excluding earlier complete deliveries, backup archives and confidential reviewer correspondence.
+[PROVENANCE.md](PROVENANCE.md) records input preparation and source history. The distribution retains the source scripts and hashes required to trace the results, while excluding earlier complete deliveries, backup archives and confidential reviewer correspondence.
